@@ -24,7 +24,7 @@ Current focus  →  Offensive security, penetration testing, network analysis
 | 01 | [Home Network Assessment](labs/01-home-network-assessment.md) | Recon · MITM · Traffic Analysis | ✅ Completed |
 | 02 | [Metasploitable 2 Setup](labs/02-metasploitable-setup.md) | Lab Infrastructure | ✅ Completed |
 | 03 | [Metasploitable 2 Exploitation](labs/03-metasploitable-exploitation.md) | Exploitation · Post-Exploitation · SQLi | 🔄 In Progress |
-| 04 | [Network Migration: DSL → Cable](labs/04-network-migration.md) | Network Diagnostics · Bufferbloat | 🔄 In Progress |
+| 04 | [Network Migration: DSL → Cable](labs/04-network-migration.md) | Network Diagnostics · Bufferbloat | ✅ Completed |
 
 ### What each lab documents
 
