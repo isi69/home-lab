@@ -70,7 +70,7 @@ ping 217.237.150.205  # Telekom core  → extreme variance
 
 ### Why DSL Provider Switch Wouldn't Help
 
-The instability appears at the **first hop** (ISP DSLAM), before traffic even reaches the broader internet. The DSLAM serves multiple apartments on shared copper infrastructure — Crosstalk (electromagnetic interference between parallel copper pairs) and DSLAM oversubscription cause the degradation. Switching DSL providers would still use the same physical copper and likely the same DSLAM.
+The instability appears at the **first hop** (ISP DSLAM), before traffic even reaches the broader internet. The DSLAM serves multiple apartments on shared copper infrastructure Crosstalk (electromagnetic interference between parallel copper pairs) and DSLAM oversubscription cause the degradation. Switching DSL providers would still use the same physical copper and likely the same DSLAM.
 
 ### Technology Comparison
 
@@ -90,7 +90,7 @@ The instability appears at the **first hop** (ISP DSLAM), before traffic even re
 
 ### Pre-Migration Checklist
 
-- [ ] Confirm cable socket is active (contact building management — ISP needs basement access)
+- [ ] Confirm cable socket is active (contact building management, ISP needs basement access)
 - [ ] Check Vodafone cable availability at address: `https://www.vodafone.de/hilfe/netzausbau.html`
 - [ ] Schedule technician appointment (included with new contract)
 - [ ] Note DSL contract end date / notice period to avoid paying both
@@ -179,7 +179,7 @@ nmcli connection edit <profile-name>
 
 ## Key Learnings
 
-- Bufferbloat (0% loss + extreme latency under load) is distinct from packet loss — the buffer fills instead of dropping
+- Bufferbloat (0% loss + extreme latency under load) is distinct from packet loss, the buffer fills instead of dropping
 - Crosstalk on FTTC copper affects all providers using the same physical infrastructure
 - `mtr --report` with 60 cycles gives a more reliable picture than short ping tests
 - Worst-case latency matters more than average for interactive use (SSH, VoIP, gaming)
