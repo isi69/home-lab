@@ -1,7 +1,7 @@
 # Lab 04 - Network Migration: DSL → Cable
 
 **Date:** June 2026
-**Status:** 🔄 In Progress
+**Status:** ✅ Completed
 **Environment:** Kali Linux · Home Network · VDSL 50 → Vodafone Cable
 
 ---
